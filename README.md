@@ -1,6 +1,6 @@
-# StrmAssistant-Maps
+# Mediary-Maps
 
-StrmAssistant 的公开远程映射库；插件只从 GitHub raw 下载到本地缓存，校验成功后原子替换并热加载，不需要重启 Emby。
+Mediary 的公开远程映射库；插件只从 GitHub raw 下载到本地缓存，校验成功后原子替换并热加载，不需要重启 Emby。
 
 - `genre_map.json`：题材（Genre）中文映射；`map` 为应建合集的题材，`skip` 为画质、片商、发行、系列等非题材标签。
 - `actor_map.json`：人工核验的“原始演员名 → 简体中文显示名”覆盖层。不会机翻。

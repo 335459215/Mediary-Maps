@@ -2,7 +2,7 @@
 """Build a redistributable, conservative actor_aliases.json from a pinned AVDC XML source.
 
 Only aliases which identify exactly one record are emitted. Values are final display
-names (zh_cn fallback zh_tw/jp), not intermediate canonical keys, so StrmAssistant
+names (zh_cn fallback zh_tw/jp), not intermediate canonical keys, so Mediary
 can resolve them offline without a second lookup. This script does not upload data.
 """
 import argparse
