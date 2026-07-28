@@ -1,5 +1,5 @@
 {
-  "_comment": "Strm Assistant 演员中文名映射库。key=Emby库内Person原名，value=中文真名。无中文官方译名的演员不在此列，插件改用库内已本地化的Person名(中文刮削增强)。人工维护。",
+  "_comment": "Mediary 演员中文名映射库。key=Emby库内Person原名，value=中文真名。无中文官方译名的演员不在此列，插件改用库内已本地化的Person名(中文刮削增强)。人工维护。",
   "version": "2026-07-28",
   "map": {
     "波多野结衣": "波多野结衣",

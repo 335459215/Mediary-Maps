@@ -1,5 +1,5 @@
 {
-  "_comment": "Strm Assistant 题材(Genre)中文映射库。map.key=Emby库内Genre原名，value=中文合集名。skip=非题材（画质、片商、发行、系列、英文电影类型、演员误标）；map 与 skip 互斥，命中 map 必须建中文合集。人工维护，非机翻。",
+  "_comment": "Mediary 题材(Genre)中文映射库。map.key=Emby库内Genre原名，value=中文合集名。skip=非题材（画质、片商、发行、系列、英文电影类型、演员误标）；map 与 skip 互斥，命中 map 必须建中文合集。人工维护，非机翻。",
   "version": "2026-07-28.1",
   "skip": [
     "1080p",
