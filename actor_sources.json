@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-28T00:00:00Z",
+  "sources": [
+    {
+      "id": "av_data_capture",
+      "url": "https://raw.githubusercontent.com/catcat0921/AV_Data_Capture/19977d177ea86e979c2a03212f7dde583dfebd83/MappingTable/mapping_actor.xml",
+      "license": "GPL-3.0-only",
+      "distribution": "fetch-at-runtime-not-republished",
+      "purpose": "optional community actor alias seed; ambiguous aliases must be discarded during import",
+      "fields": ["zh_cn", "zh_tw", "jp", "keyword"]
+    }
+  ]
+}
