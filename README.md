@@ -5,6 +5,7 @@ Mediary 的公开远程映射库；插件只从 GitHub raw 下载到本地缓存
 - `genre_map.json`：题材（Genre）中文映射；`map` 为应建合集的题材，`skip` 为画质、片商、发行、系列等非题材标签。
 - `actor_map.json`：人工核验的“原始演员名 → 简体中文显示名”覆盖层。不会机翻。
 - `actor_aliases.json`：去重后的无歧义别名 → 显示名。它是唯一的社区派生数据文件，内置固定来源 revision、许可证和生成器信息；运行时优先级低于 `actor_map.json`。
+- `actor_image_map.json`：人工核验的“原始演员名 → 允许按需请求的 HTTPS 主图 URL”索引。只保存身份键与 URL，绝不镜像或提交第三方图片文件；当前没有通过来源/许可审核的条目，故为空。
 
 ## 来源、许可证与纠错
 

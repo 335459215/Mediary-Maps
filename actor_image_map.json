@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-29T00:00:00Z",
+  "license": "URLs and manually verified identity keys only; no third-party image bytes are redistributed.",
+  "warning": "Entries must be HTTPS direct portrait URLs from a permitted source and refer to an unambiguous original actor name. Empty until a source passes licensing and identity review.",
+  "map": {}
+}
