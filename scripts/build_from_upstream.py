@@ -110,9 +110,11 @@ def build_avatars():
             key = clean(name).rsplit(".", 1)[0].strip()
             if not key or not actual:
                 continue
-            # first folder wins; duplicates across studios are common and equivalent
+            # Store the RAW UTF-8 path (no URL encoding): the plugin composes the final
+            # URL and applies its own escaping. Pre-encoded paths would be double-encoded.
+            # First folder wins; duplicates across studios are common and equivalent.
             if key not in avatars:
-                avatars[key] = f"{folder}/{urllib.parse.quote(actual)}"
+                avatars[key] = f"{folder}/{actual}"
     return {
         "schemaVersion": 1,
         "updatedAt": today(),
