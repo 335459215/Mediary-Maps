@@ -1,0 +1,18 @@
+{
+ "date": "2026-09-13",
+ "name_translations": {
+  "done": 156,
+  "failed": 0
+ },
+ "avatars": {
+  "total_missing": 24,
+  "filled": 2,
+  "unavailable": 22,
+  "reason": "DMM nowprinting / gfriends 无图 (2026 新片演员 / 非演员条目)"
+ },
+ "photoalbums": {
+  "total_missing": 118,
+  "available_in_jalbum": 0,
+  "reason": "Jalbum 仓库无这些演员 (新片演员, 网络暂无写真)"
+ }
+}
